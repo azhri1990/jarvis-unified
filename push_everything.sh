@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-echo "🚀 PUSHING EVERYTHING TO GITHUB"
+echo "🚀 PUSHING EVERYTHING TO GITHUB (74 FEATURES, 12 REPOS)"
 echo "============================================================"
 echo ""
 
@@ -105,7 +105,7 @@ echo "   ✅ termux-config pushed"
 echo "📦 10. Pushing jarvis-roadmap..."
 cd ~/jarvis-roadmap
 git add .
-git commit -m "Updated roadmap with all 62 features completed" 2>/dev/null
+git commit -m "Updated roadmap with all 74 features completed" 2>/dev/null
 git push origin main 2>/dev/null || git push origin master 2>/dev/null
 echo "   ✅ jarvis-roadmap pushed"
 
