@@ -1,0 +1,13 @@
+#!/data/data/com.termux/files/usr/bin/bash
+echo "🔍 WEB SEARCH & RAG"
+echo "============================"
+echo ""
+echo "Option 1: Use Research Agent (already built)"
+echo "  ~/bin/research_agent 'your query'"
+echo ""
+echo "Option 2: Install RAG system"
+echo "  pip install llama-index chromadb"
+echo ""
+echo "Option 3: Use Tavily API"
+echo "  export TAVILY_API_KEY='your-key'"
+echo "  curl https://api.tavily.com/search -d '{\"query\":\"your query\"}'"

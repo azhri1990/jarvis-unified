@@ -1,0 +1,13 @@
+#!/data/data/com.termux/files/usr/bin/bash
+echo "🏠 SMART HOME INTEGRATION"
+echo "============================"
+echo ""
+echo "Option 1: Install Home Assistant Core"
+echo "  pip install homeassistant"
+echo "  hass --open-ui"
+echo ""
+echo "Option 2: Install Home Assistant in Docker"
+echo "  docker run -d --name homeassistant -p 8123:8123 ghcr.io/home-assistant/home-assistant:stable"
+echo ""
+echo "Option 3: Use IFTTT webhooks"
+echo "  http://localhost:5000/webhook/ifttt"
